@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="MainPane" maxHeight="600.0" maxWidth="800.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="314.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <Label layoutX="29.0" layoutY="34.0" text="X:" AnchorPane.leftAnchor="29.0" AnchorPane.topAnchor="34.0" />
+   <Label layoutX="29.0" layoutY="74.0" text="A:" AnchorPane.leftAnchor="29.0" AnchorPane.topAnchor="74.0" />
+   <Label layoutX="29.0" layoutY="113.0" text="B:" AnchorPane.leftAnchor="29.0" AnchorPane.topAnchor="113.0" />
+   <TextField fx:id="FieldX" layoutX="53.0" layoutY="30.0" AnchorPane.leftAnchor="53.0" AnchorPane.topAnchor="30.0" />
+   <TextField fx:id="FieldA" layoutX="53.0" layoutY="70.0" AnchorPane.leftAnchor="53.0" AnchorPane.topAnchor="70.0" />
+   <TextField fx:id="FieldB" layoutX="53.0" layoutY="109.0" AnchorPane.leftAnchor="53.0" AnchorPane.topAnchor="109.0" />
+   <Button layoutX="128.0" layoutY="178.0" mnemonicParsing="false" onMouseClicked="#ClearClick" prefHeight="57.0" prefWidth="80.0" text="Очистить" AnchorPane.bottomAnchor="79.0" AnchorPane.leftAnchor="128.0" />
+   <Button layoutX="29.0" layoutY="178.0" mnemonicParsing="false" onMouseClicked="#SolveClick" prefHeight="57.0" prefWidth="80.0" text="Решить" AnchorPane.bottomAnchor="79.0" AnchorPane.leftAnchor="29.0" />
+   <TextField fx:id="FieldResult" layoutX="29.0" layoutY="275.0" prefHeight="25.0" prefWidth="496.0" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="29.0" />
+   <Label layoutX="29.0" layoutY="250.0" text="Ответ:" AnchorPane.bottomAnchor="47.0" AnchorPane.leftAnchor="29.0" />
+   <Button fx:id="closeButton" layoutX="434.0" layoutY="178.0" mnemonicParsing="false" onMouseClicked="#OnExitClick" prefHeight="57.0" prefWidth="80.0" text="Выход" AnchorPane.bottomAnchor="79.0" AnchorPane.leftAnchor="445.0" />
+   <ImageView fitHeight="92.0" fitWidth="350.0" layoutX="193.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true"
+              AnchorPane.leftAnchor="193.0" AnchorPane.topAnchor="46.0">
+      <Image url="@../Images/formula_1.png"/>
+   </ImageView>
+</AnchorPane>
